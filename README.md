@@ -1,5 +1,5 @@
 #  GPG (GNU Privacy Guard)
-## GPG is a free and open-source implementation of the OpenPGP encryption standard. It provides cryptographic privacy and authentication for data communication. GPG is commonly used for encrypting, decry
+## GPG is a free and open-source implementation of the OpenPGP encryption standard. It provides cryptographic privacy and authentication for data communication. GPG is commonly used for encrypting, decrypting.
 ## Generating a GPG Key Pair
 
 - To use GPG, you need to generate a key pair consisting of a public key and a private key. The public key is used to encrypt messages that only the corresponding private key can decrypt, while the private key is kept secret and used for decrypting messages and signing files.<br/>

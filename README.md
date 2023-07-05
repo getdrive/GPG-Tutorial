@@ -35,14 +35,17 @@ Importing a public key allows you to encrypt messages for the corresponding key 
 Editing a key allows you to perform operations like changing trust levels, adding signatures, or updating key properties.<br/>
 
 	    gpg --edit-key keyID
-trust
+  
 - Listing Key usage<br/>
 Listing keys helps you view the existing public keys in your keyring.<br/>
 
 	    gpg --list-keys
+<br/>
 
 	    gpg --list-secret-keys
 - Deleting Key<br/>
 
 	    gpg --delete-secret-keys Keyname
+  <br/>
+  
 	    gpg --delete-keys Keyname
